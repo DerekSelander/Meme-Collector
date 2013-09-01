@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A637530F177FB5C9008D0E42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A637530E177FB5C9008D0E42 /* UIKit.framework */; };
+		A6375311177FB5C9008D0E42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6375310177FB5C9008D0E42 /* Foundation.framework */; };
+		A6375313177FB5C9008D0E42 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6375312177FB5C9008D0E42 /* CoreGraphics.framework */; };
+		A637534C177FB6B9008D0E42 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A637534B177FB6B9008D0E42 /* QuartzCore.framework */; };
+		A637534E177FB6C0008D0E42 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A637534D177FB6C0008D0E42 /* StoreKit.framework */; };
+		A69FD98717924E21000DE9BC /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A69FD95717924E21000DE9BC /* AFHTTPClient.m */; };
+		A69FD98817924E21000DE9BC /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A69FD95917924E21000DE9BC /* AFHTTPRequestOperation.m */; };
+		A69FD98917924E21000DE9BC /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A69FD95B17924E21000DE9BC /* AFImageRequestOperation.m */; };
+		A69FD98A17924E21000DE9BC /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A69FD95D17924E21000DE9BC /* AFJSONRequestOperation.m */; };
+		A69FD98B17924E21000DE9BC /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A69FD95F17924E21000DE9BC /* AFNetworkActivityIndicatorManager.m */; };
+		A69FD98C17924E21000DE9BC /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A69FD96217924E21000DE9BC /* AFPropertyListRequestOperation.m */; };
+		A69FD98D17924E21000DE9BC /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A69FD96417924E21000DE9BC /* AFURLConnectionOperation.m */; };
+		A69FD98E17924E21000DE9BC /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A69FD96617924E21000DE9BC /* AFXMLRequestOperation.m */; };
+		A69FD98F17924E21000DE9BC /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A69FD96817924E21000DE9BC /* UIImageView+AFNetworking.m */; };
+		A69FD99017924E21000DE9BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A69FD96A17924E21000DE9BC /* AppDelegate.m */; };
+		A69FD99117924E21000DE9BC /* backgroundTexture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A69FD96B17924E21000DE9BC /* backgroundTexture.jpg */; };
+		A69FD99217924E21000DE9BC /* coin.png in Resources */ = {isa = PBXBuildFile; fileRef = A69FD96C17924E21000DE9BC /* coin.png */; };
+		A69FD99317924E21000DE9BC /* coin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A69FD96D17924E21000DE9BC /* coin@2x.png */; };
+		A69FD99417924E21000DE9BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A69FD96E17924E21000DE9BC /* InfoPlist.strings */; };
+		A69FD99517924E21000DE9BC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A69FD97017924E21000DE9BC /* Icon.png */; };
+		A69FD99617924E21000DE9BC /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A69FD97117924E21000DE9BC /* Icon@2x.png */; };
+		A69FD99717924E21000DE9BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A69FD97217924E21000DE9BC /* main.m */; };
+		A69FD99917924E21000DE9BC /* Meme.m in Sources */ = {isa = PBXBuildFile; fileRef = A69FD97617924E21000DE9BC /* Meme.m */; };
+		A69FD99A17924E21000DE9BC /* MemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A69FD97817924E21000DE9BC /* MemeManager.m */; };
+		A69FD99B17924E21000DE9BC /* MoneyDataStore.plist in Resources */ = {isa = PBXBuildFile; fileRef = A69FD97917924E21000DE9BC /* MoneyDataStore.plist */; };
+		A69FD99C17924E21000DE9BC /* MoneyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A69FD97B17924E21000DE9BC /* MoneyManager.m */; };
+		A69FD99E17924E21000DE9BC /* PurchaseableItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A69FD98017924E21000DE9BC /* PurchaseableItemCollectionViewCell.m */; };
+		A69FD99F17924E21000DE9BC /* successKid.png in Resources */ = {isa = PBXBuildFile; fileRef = A69FD98117924E21000DE9BC /* successKid.png */; };
+		A69FD9A017924E21000DE9BC /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A69FD98217924E21000DE9BC /* SVProgressHUD.bundle */; };
+		A69FD9A117924E21000DE9BC /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A69FD98417924E21000DE9BC /* SVProgressHUD.m */; };
+		A69FD9A217924E21000DE9BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A69FD98617924E21000DE9BC /* ViewController.m */; };
+		A6A8505E177FB78E005A5BF1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A8505D177FB78E005A5BF1 /* MainStoryboard.storyboard */; };
+		A6EE6F821782520400638CD4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EE6F811782520400638CD4 /* Security.framework */; };
+		A6FA40411785622200CE2532 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FA40401785622200CE2532 /* MobileCoreServices.framework */; };
+		A6FA40431785622700CE2532 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FA40421785622700CE2532 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A637530B177FB5C9008D0E42 /* Meme Collector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meme Collector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A637530E177FB5C9008D0E42 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6375310177FB5C9008D0E42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6375312177FB5C9008D0E42 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A637534B177FB6B9008D0E42 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A637534D177FB6C0008D0E42 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A69FD95617924E21000DE9BC /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		A69FD95717924E21000DE9BC /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		A69FD95817924E21000DE9BC /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		A69FD95917924E21000DE9BC /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		A69FD95A17924E21000DE9BC /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		A69FD95B17924E21000DE9BC /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		A69FD95C17924E21000DE9BC /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		A69FD95D17924E21000DE9BC /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		A69FD95E17924E21000DE9BC /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		A69FD95F17924E21000DE9BC /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		A69FD96017924E21000DE9BC /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		A69FD96117924E21000DE9BC /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		A69FD96217924E21000DE9BC /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		A69FD96317924E21000DE9BC /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		A69FD96417924E21000DE9BC /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		A69FD96517924E21000DE9BC /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		A69FD96617924E21000DE9BC /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		A69FD96717924E21000DE9BC /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		A69FD96817924E21000DE9BC /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		A69FD96917924E21000DE9BC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A69FD96A17924E21000DE9BC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A69FD96B17924E21000DE9BC /* backgroundTexture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundTexture.jpg; sourceTree = "<group>"; };
+		A69FD96C17924E21000DE9BC /* coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coin.png; sourceTree = "<group>"; };
+		A69FD96D17924E21000DE9BC /* coin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coin@2x.png"; sourceTree = "<group>"; };
+		A69FD96F17924E21000DE9BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A69FD97017924E21000DE9BC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A69FD97117924E21000DE9BC /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A69FD97217924E21000DE9BC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A69FD97317924E21000DE9BC /* Meme Collector-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Meme Collector-Info.plist"; sourceTree = "<group>"; };
+		A69FD97417924E21000DE9BC /* Meme Collector-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Meme Collector-Prefix.pch"; sourceTree = "<group>"; };
+		A69FD97517924E21000DE9BC /* Meme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meme.h; sourceTree = "<group>"; };
+		A69FD97617924E21000DE9BC /* Meme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Meme.m; sourceTree = "<group>"; };
+		A69FD97717924E21000DE9BC /* MemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemeManager.h; sourceTree = "<group>"; };
+		A69FD97817924E21000DE9BC /* MemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemeManager.m; sourceTree = "<group>"; };
+		A69FD97917924E21000DE9BC /* MoneyDataStore.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MoneyDataStore.plist; sourceTree = "<group>"; };
+		A69FD97A17924E21000DE9BC /* MoneyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneyManager.h; sourceTree = "<group>"; };
+		A69FD97B17924E21000DE9BC /* MoneyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneyManager.m; sourceTree = "<group>"; };
+		A69FD97C17924E21000DE9BC /* NSObject+debugCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+debugCheck.h"; sourceTree = "<group>"; };
+		A69FD97E17924E21000DE9BC /* PurchasableItemProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchasableItemProtocol.h; sourceTree = "<group>"; };
+		A69FD97F17924E21000DE9BC /* PurchaseableItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaseableItemCollectionViewCell.h; sourceTree = "<group>"; };
+		A69FD98017924E21000DE9BC /* PurchaseableItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaseableItemCollectionViewCell.m; sourceTree = "<group>"; };
+		A69FD98117924E21000DE9BC /* successKid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = successKid.png; sourceTree = "<group>"; };
+		A69FD98217924E21000DE9BC /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		A69FD98317924E21000DE9BC /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		A69FD98417924E21000DE9BC /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		A69FD98517924E21000DE9BC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A69FD98617924E21000DE9BC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6A8505D177FB78E005A5BF1 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = ../MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A6EE6F811782520400638CD4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A6FA40401785622200CE2532 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A6FA40421785622700CE2532 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6375308177FB5C9008D0E42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FA40431785622700CE2532 /* SystemConfiguration.framework in Frameworks */,
+				A6FA40411785622200CE2532 /* MobileCoreServices.framework in Frameworks */,
+				A6EE6F821782520400638CD4 /* Security.framework in Frameworks */,
+				A637534E177FB6C0008D0E42 /* StoreKit.framework in Frameworks */,
+				A637534C177FB6B9008D0E42 /* QuartzCore.framework in Frameworks */,
+				A637530F177FB5C9008D0E42 /* UIKit.framework in Frameworks */,
+				A6375311177FB5C9008D0E42 /* Foundation.framework in Frameworks */,
+				A6375313177FB5C9008D0E42 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6375302177FB5C9008D0E42 = {
+			isa = PBXGroup;
+			children = (
+				A69FD95417924E21000DE9BC /* Meme Collector */,
+				A637530D177FB5C9008D0E42 /* Frameworks */,
+				A637530C177FB5C9008D0E42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A637530C177FB5C9008D0E42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A637530B177FB5C9008D0E42 /* Meme Collector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A637530D177FB5C9008D0E42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6FA40421785622700CE2532 /* SystemConfiguration.framework */,
+				A6FA40401785622200CE2532 /* MobileCoreServices.framework */,
+				A6EE6F811782520400638CD4 /* Security.framework */,
+				A637534D177FB6C0008D0E42 /* StoreKit.framework */,
+				A637534B177FB6B9008D0E42 /* QuartzCore.framework */,
+				A637530E177FB5C9008D0E42 /* UIKit.framework */,
+				A6375310177FB5C9008D0E42 /* Foundation.framework */,
+				A6375312177FB5C9008D0E42 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A69FD95417924E21000DE9BC /* Meme Collector */ = {
+			isa = PBXGroup;
+			children = (
+				A69FD96917924E21000DE9BC /* AppDelegate.h */,
+				A69FD96A17924E21000DE9BC /* AppDelegate.m */,
+				A6A8505D177FB78E005A5BF1 /* MainStoryboard.storyboard */,
+				A69FD98517924E21000DE9BC /* ViewController.h */,
+				A69FD98617924E21000DE9BC /* ViewController.m */,
+				A69FD9A417924EAD000DE9BC /* Money (App Currency) */,
+				A69FD9A317924EA6000DE9BC /* Memes (Purchasable Content) */,
+				A69FD9A517924EFD000DE9BC /* Views */,
+				A69FD9A617924F1A000DE9BC /* Supporting Files */,
+				A69FD97317924E21000DE9BC /* Meme Collector-Info.plist */,
+				A69FD96E17924E21000DE9BC /* InfoPlist.strings */,
+				A69FD97217924E21000DE9BC /* main.m */,
+				A69FD97417924E21000DE9BC /* Meme Collector-Prefix.pch */,
+			);
+			path = "Meme Collector";
+			sourceTree = "<group>";
+		};
+		A69FD95517924E21000DE9BC /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A69FD95617924E21000DE9BC /* AFHTTPClient.h */,
+				A69FD95717924E21000DE9BC /* AFHTTPClient.m */,
+				A69FD95817924E21000DE9BC /* AFHTTPRequestOperation.h */,
+				A69FD95917924E21000DE9BC /* AFHTTPRequestOperation.m */,
+				A69FD95A17924E21000DE9BC /* AFImageRequestOperation.h */,
+				A69FD95B17924E21000DE9BC /* AFImageRequestOperation.m */,
+				A69FD95C17924E21000DE9BC /* AFJSONRequestOperation.h */,
+				A69FD95D17924E21000DE9BC /* AFJSONRequestOperation.m */,
+				A69FD95E17924E21000DE9BC /* AFNetworkActivityIndicatorManager.h */,
+				A69FD95F17924E21000DE9BC /* AFNetworkActivityIndicatorManager.m */,
+				A69FD96017924E21000DE9BC /* AFNetworking.h */,
+				A69FD96117924E21000DE9BC /* AFPropertyListRequestOperation.h */,
+				A69FD96217924E21000DE9BC /* AFPropertyListRequestOperation.m */,
+				A69FD96317924E21000DE9BC /* AFURLConnectionOperation.h */,
+				A69FD96417924E21000DE9BC /* AFURLConnectionOperation.m */,
+				A69FD96517924E21000DE9BC /* AFXMLRequestOperation.h */,
+				A69FD96617924E21000DE9BC /* AFXMLRequestOperation.m */,
+				A69FD96717924E21000DE9BC /* UIImageView+AFNetworking.h */,
+				A69FD96817924E21000DE9BC /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		A69FD9A317924EA6000DE9BC /* Memes (Purchasable Content) */ = {
+			isa = PBXGroup;
+			children = (
+				A69FD97517924E21000DE9BC /* Meme.h */,
+				A69FD97617924E21000DE9BC /* Meme.m */,
+				A69FD97717924E21000DE9BC /* MemeManager.h */,
+				A69FD97817924E21000DE9BC /* MemeManager.m */,
+				A69FD97E17924E21000DE9BC /* PurchasableItemProtocol.h */,
+			);
+			name = "Memes (Purchasable Content)";
+			sourceTree = "<group>";
+		};
+		A69FD9A417924EAD000DE9BC /* Money (App Currency) */ = {
+			isa = PBXGroup;
+			children = (
+				A69FD97917924E21000DE9BC /* MoneyDataStore.plist */,
+				A69FD97A17924E21000DE9BC /* MoneyManager.h */,
+				A69FD97B17924E21000DE9BC /* MoneyManager.m */,
+			);
+			name = "Money (App Currency)";
+			sourceTree = "<group>";
+		};
+		A69FD9A517924EFD000DE9BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A69FD97F17924E21000DE9BC /* PurchaseableItemCollectionViewCell.h */,
+				A69FD98017924E21000DE9BC /* PurchaseableItemCollectionViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A69FD9A617924F1A000DE9BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A69FD9A717924F20000DE9BC /* Assets */,
+				A69FD9AD17924FB1000DE9BC /* Categories */,
+				A69FD9A817924F28000DE9BC /* 3rd Party */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A69FD9A717924F20000DE9BC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A69FD96B17924E21000DE9BC /* backgroundTexture.jpg */,
+				A69FD98117924E21000DE9BC /* successKid.png */,
+				A69FD9AB17924F62000DE9BC /* 1x */,
+				A69FD9AC17924F66000DE9BC /* 2x */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		A69FD9A817924F28000DE9BC /* 3rd Party */ = {
+			isa = PBXGroup;
+			children = (
+				A69FD95517924E21000DE9BC /* AFNetworking */,
+				A69FD9A917924F2E000DE9BC /* SVProgressHUD */,
+			);
+			name = "3rd Party";
+			sourceTree = "<group>";
+		};
+		A69FD9A917924F2E000DE9BC /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				A69FD98217924E21000DE9BC /* SVProgressHUD.bundle */,
+				A69FD98317924E21000DE9BC /* SVProgressHUD.h */,
+				A69FD98417924E21000DE9BC /* SVProgressHUD.m */,
+			);
+			name = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		A69FD9AB17924F62000DE9BC /* 1x */ = {
+			isa = PBXGroup;
+			children = (
+				A69FD96C17924E21000DE9BC /* coin.png */,
+				A69FD97017924E21000DE9BC /* Icon.png */,
+			);
+			name = 1x;
+			sourceTree = "<group>";
+		};
+		A69FD9AC17924F66000DE9BC /* 2x */ = {
+			isa = PBXGroup;
+			children = (
+				A69FD96D17924E21000DE9BC /* coin@2x.png */,
+				A69FD97117924E21000DE9BC /* Icon@2x.png */,
+			);
+			name = 2x;
+			sourceTree = "<group>";
+		};
+		A69FD9AD17924FB1000DE9BC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A69FD97C17924E21000DE9BC /* NSObject+debugCheck.h */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A637530A177FB5C9008D0E42 /* Meme Collector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A637532E177FB5C9008D0E42 /* Build configuration list for PBXNativeTarget "Meme Collector" */;
+			buildPhases = (
+				A6375307177FB5C9008D0E42 /* Sources */,
+				A6375308177FB5C9008D0E42 /* Frameworks */,
+				A6375309177FB5C9008D0E42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meme Collector";
+			productName = ReverseMe;
+			productReference = A637530B177FB5C9008D0E42 /* Meme Collector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6375303177FB5C9008D0E42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Selander;
+			};
+			buildConfigurationList = A6375306177FB5C9008D0E42 /* Build configuration list for PBXProject "Meme Collector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6375302177FB5C9008D0E42;
+			productRefGroup = A637530C177FB5C9008D0E42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A637530A177FB5C9008D0E42 /* Meme Collector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6375309177FB5C9008D0E42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A8505E177FB78E005A5BF1 /* MainStoryboard.storyboard in Resources */,
+				A69FD99117924E21000DE9BC /* backgroundTexture.jpg in Resources */,
+				A69FD99217924E21000DE9BC /* coin.png in Resources */,
+				A69FD99317924E21000DE9BC /* coin@2x.png in Resources */,
+				A69FD99417924E21000DE9BC /* InfoPlist.strings in Resources */,
+				A69FD99517924E21000DE9BC /* Icon.png in Resources */,
+				A69FD99617924E21000DE9BC /* Icon@2x.png in Resources */,
+				A69FD99B17924E21000DE9BC /* MoneyDataStore.plist in Resources */,
+				A69FD99F17924E21000DE9BC /* successKid.png in Resources */,
+				A69FD9A017924E21000DE9BC /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6375307177FB5C9008D0E42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69FD98717924E21000DE9BC /* AFHTTPClient.m in Sources */,
+				A69FD98817924E21000DE9BC /* AFHTTPRequestOperation.m in Sources */,
+				A69FD98917924E21000DE9BC /* AFImageRequestOperation.m in Sources */,
+				A69FD98A17924E21000DE9BC /* AFJSONRequestOperation.m in Sources */,
+				A69FD98B17924E21000DE9BC /* AFNetworkActivityIndicatorManager.m in Sources */,
+				A69FD98C17924E21000DE9BC /* AFPropertyListRequestOperation.m in Sources */,
+				A69FD98D17924E21000DE9BC /* AFURLConnectionOperation.m in Sources */,
+				A69FD98E17924E21000DE9BC /* AFXMLRequestOperation.m in Sources */,
+				A69FD98F17924E21000DE9BC /* UIImageView+AFNetworking.m in Sources */,
+				A69FD99017924E21000DE9BC /* AppDelegate.m in Sources */,
+				A69FD99717924E21000DE9BC /* main.m in Sources */,
+				A69FD99917924E21000DE9BC /* Meme.m in Sources */,
+				A69FD99A17924E21000DE9BC /* MemeManager.m in Sources */,
+				A69FD99C17924E21000DE9BC /* MoneyManager.m in Sources */,
+				A69FD99E17924E21000DE9BC /* PurchaseableItemCollectionViewCell.m in Sources */,
+				A69FD9A117924E21000DE9BC /* SVProgressHUD.m in Sources */,
+				A69FD9A217924E21000DE9BC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A69FD96E17924E21000DE9BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A69FD96F17924E21000DE9BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A637532C177FB5C9008D0E42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A637532D177FB5C9008D0E42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A637532F177FB5C9008D0E42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Meme Collector/Meme Collector-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Meme Collector/Meme Collector-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "Meme Collector";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6375330177FB5C9008D0E42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Meme Collector/Meme Collector-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Meme Collector/Meme Collector-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "Meme Collector";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6375306177FB5C9008D0E42 /* Build configuration list for PBXProject "Meme Collector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A637532C177FB5C9008D0E42 /* Debug */,
+				A637532D177FB5C9008D0E42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A637532E177FB5C9008D0E42 /* Build configuration list for PBXNativeTarget "Meme Collector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A637532F177FB5C9008D0E42 /* Debug */,
+				A6375330177FB5C9008D0E42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6375303177FB5C9008D0E42 /* Project object */;
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6B994414-7346-4920-81A8-3EA3765C242B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ReverseMe</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>89611A48-EF7E-4F2C-B23D-6302E5888EDB</key>
+		<string>ssh://github.com/DerekSelander/Reverse-Me.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ReverseMe/ReverseMe.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>89611A48-EF7E-4F2C-B23D-6302E5888EDB</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/DerekSelander/Reverse-Me.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>89611A48-EF7E-4F2C-B23D-6302E5888EDB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>89611A48-EF7E-4F2C-B23D-6302E5888EDB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ReverseMe</string>
+		</dict>
+	</array>
+</dict>
+</plist>
