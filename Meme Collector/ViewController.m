@@ -136,6 +136,7 @@
     id<PurchasableItemProtocol>item = [MemeManager sharedManager].memes[button.tag];
     NSString *memeDescriptionText = [NSString stringWithFormat:@"Description: %@", [item itemDescription]];
     NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:memeDescriptionText];
+    [attributedString addAttribute:NSForegroundColorAttributeName value:[UIColor whiteColor] range:NSMakeRange(0, [memeDescriptionText length])];
     [attributedString addAttribute:NSForegroundColorAttributeName value:[UIColor purpleColor] range:NSMakeRange(0, 12)];
     
     self.memeDescriptionTextView.attributedText = attributedString;
