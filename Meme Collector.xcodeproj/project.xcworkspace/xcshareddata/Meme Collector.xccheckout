@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F1DBA132-F385-4731-9180-63D55419BBDC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Meme Collector</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>265C3215-11CB-49A7-BA75-1A9ACA9F702E</key>
+		<string>ssh://github.com/DerekSelander/Meme-Collector.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Meme Collector.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>265C3215-11CB-49A7-BA75-1A9ACA9F702E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/DerekSelander/Meme-Collector.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>265C3215-11CB-49A7-BA75-1A9ACA9F702E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>265C3215-11CB-49A7-BA75-1A9ACA9F702E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MemeCollector</string>
+		</dict>
+	</array>
+</dict>
+</plist>

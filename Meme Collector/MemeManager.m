@@ -20,7 +20,8 @@
 + (MemeManager *)sharedManager
 {
     static MemeManager *sharedMemeManager = nil;
-    if (!sharedMemeManager) {
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
         sharedMemeManager = [[MemeManager alloc] init];
         NSURL *url = [[NSURL alloc] initWithString:@"http://version1.api.memegenerator.net/Generator_Select_ByUrlNameOrGeneratorID"];
         sharedMemeManager.client = [[AFHTTPClient alloc] initWithBaseURL:url];
@@ -29,9 +30,7 @@
         [sharedMemeManager.client setDefaultHeader:@"Accept" value:@"application/json"];
         [sharedMemeManager getMemeInformation];
         sharedMemeManager->_memes = [NSMutableArray arrayWithCapacity:3];
-
-    }
-    
+    });
     return sharedMemeManager;
 }
 
@@ -60,7 +59,9 @@
                                                                
                                                                
                                                                
-                                                           } failure:nil] start];
+                                                           } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error) {
+                                                               
+                                                           }] start];
         
     } failure:nil];
     
